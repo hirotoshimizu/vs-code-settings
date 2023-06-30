@@ -1,0 +1,41 @@
+{
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "editor.lineNumbers": "relative",
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.analysis.typeCheckingMode": "strict",
+    "python.formatting.provider": "black",
+    "[python]": {
+        "editor.defaultFormatter": null,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.formatOnType": true
+    },
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<esc>"
+            ]
+        }
+    ],
+    "vim.useSystemClipboard": true,
+    "go.toolsManagement.autoUpdate": true,
+    "security.allowedUNCHosts": [
+        "wsl$"
+    ]
+}
